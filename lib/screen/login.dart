@@ -32,7 +32,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: "Email",
-                    // hintText: "Masukkan Email Anda",
+                    hintText: "Masukkan Email Anda",
                     prefixIcon: Icon(Icons.email_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -50,7 +50,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: "Password",
-                    // hintText: "Masukkan Password Anda",
+                    hintText: "Masukkan Password Anda",
                     prefixIcon: Icon(Icons.password_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -83,11 +83,11 @@ class Login extends StatelessWidget {
                             
                         }, 
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.red,
+                          backgroundColor: Colors.cyan,
                         ),
                         child: Text('Login',
                         style: TextStyle(
-                          color: Colors.white
+                          color: Colors.black
                         ),
                         ),
                       ),
@@ -123,7 +123,7 @@ class Login extends StatelessWidget {
                       style: OutlinedButton.styleFrom(
                         padding: EdgeInsets.symmetric(vertical: 12),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                        side: BorderSide(color: Colors.red),
+                        side: BorderSide(color: Colors.cyan),
                       ),
                     ),
                   ),
