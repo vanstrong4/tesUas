@@ -32,7 +32,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: "Email",
-                    hintText: "Masukkan Email Anda",
+                    // hintText: "Masukkan Email Anda",
                     prefixIcon: Icon(Icons.email_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -50,7 +50,7 @@ class Login extends StatelessWidget {
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: "Password",
-                    hintText: "Masukkan Password Anda",
+                    // hintText: "Masukkan Password Anda",
                     prefixIcon: Icon(Icons.password_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
