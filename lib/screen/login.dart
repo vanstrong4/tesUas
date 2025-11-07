@@ -17,13 +17,13 @@ class Login extends StatelessWidget {
                 const Icon(Icons.qr_code_scanner_sharp, size: 70, color: Colors.blue),
                 const SizedBox(height: 20),
                 const Text(
-                  "welcome",
-                  style: TextStyle(fontSize: 30.0, color: Colors.red),
+                  "Welcome",
+                  style: TextStyle(fontSize: 30.0, color: Colors.cyan),
                 ),
                 const SizedBox(height: 20),
                 const Text(
-                  "silahkan login untuk melanjutkan",
-                  style: TextStyle(fontSize: 16.0, color: Colors.blueGrey),
+                  "silahkan masukkan email dan password anda untuk melanjutkan",
+                  style: TextStyle(fontSize: 16.0, color: Colors.cyan),
                 ),
                 const SizedBox(height: 40),
 
@@ -36,11 +36,11 @@ class Login extends StatelessWidget {
                     prefixIcon: Icon(Icons.email_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                      borderSide: BorderSide(color: Colors.black),
+                      borderSide: BorderSide(color: Colors.cyan),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                      borderSide: BorderSide(color: Colors.blue, width: 2),
+                      borderSide: BorderSide(color: Colors.cyan, width: 2),
                     ),
                   ),
                 ),
@@ -54,11 +54,11 @@ class Login extends StatelessWidget {
                     prefixIcon: Icon(Icons.password_outlined),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                      borderSide: BorderSide(color: Colors.black),
+                      borderSide: BorderSide(color: Colors.cyan),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                      borderSide: BorderSide(color: Colors.blue, width: 2),
+                      borderSide: BorderSide(color: Colors.cyan, width: 2),
                     ),
                   ),
                 ),
@@ -67,7 +67,7 @@ class Login extends StatelessWidget {
                   alignment: Alignment.centerRight,
                   child: Text(
                     "Lupa Password?",
-                    style: TextStyle(color: Colors.blue
+                    style: TextStyle(color: Colors.cyan
                     ),
                   ),
                 ),
