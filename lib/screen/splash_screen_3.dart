@@ -18,12 +18,12 @@ class MySplashScreen3 extends StatelessWidget {
             height: 200,
             width: 200,
             decoration: BoxDecoration(
-              color:Colors.amber,
+              color:Colors.cyan,
               shape:BoxShape.circle,
               image : DecorationImage(
                 image:  
                 AssetImage(
-                  "../assets/image/siput.jpg"
+                  "../assets/image/hotel3.png"
                   ),
               fit : BoxFit.cover
                   ),
@@ -36,12 +36,12 @@ class MySplashScreen3 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                   Text('ingin punya hewan peliharaan dirumah?\n beli di VANSPET aja!',
+                   Text('ingin nginep di hotel mewah ,enak ,dan nyaman?\n nginep di vanshotel aja!',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.normal,
-                      color: Colors.black
+                      color: Colors.cyan
                     ),
                   ),
                   SizedBox(height: 30,),
@@ -71,7 +71,7 @@ class MySplashScreen3 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.cyan
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -92,7 +92,7 @@ class MySplashScreen3 extends StatelessWidget {
                       // );
                         }, 
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(255, 66, 13, 9),
+                          backgroundColor: Colors.cyan
                         ),
                         child: Text('Gasken Continue',
                         style: TextStyle(
