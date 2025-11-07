@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150186_uts/screen/splash_screen_3.dart';
+// import 'package:kb1179_1123150186_uts/screen/splash_screen_3.dart';
 
 
 class MySplashScreen2 extends StatelessWidget {
@@ -36,12 +36,12 @@ class MySplashScreen2 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                   Text('ingin nginep di hotel mewah dan nyaman?\n beli di VANSPET aja!',
+                   Text('ingin nginep di hotel mewah dan nyaman?\n nginep di vanshotel aja!',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.normal,
-                      color: Colors.black
+                      color: Colors.cyan
                     ),
                   ),
                   SizedBox(height: 30,),
@@ -62,7 +62,7 @@ class MySplashScreen2 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.cyan
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -85,6 +85,10 @@ class MySplashScreen2 extends StatelessWidget {
                       child: ElevatedButton(
                         onPressed: (){
                             // arahin ke next page
+                            // Navigator.push(
+                            //   context, 
+                            //   MaterialPageRoute(builder: (context) => MySplashScreen3()),
+                            // );
                           // Navigator.push(
                           //     context, 
                           //     MaterialPageRoute(builder: (context) => MySplashScreen3()),

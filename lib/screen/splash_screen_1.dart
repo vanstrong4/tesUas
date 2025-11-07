@@ -58,7 +58,7 @@ class MySplashScreen extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.cyan,
+                    color: Colors.grey,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -67,7 +67,7 @@ class MySplashScreen extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.cyan,
+                    color: Colors.grey,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -93,7 +93,7 @@ class MySplashScreen extends StatelessWidget {
                   ),
                   child: Text(
                     'Gasken Continue',
-                    style: TextStyle(color: Colors.cyan),
+                    style: TextStyle(color: Colors.black),
                   ),
                 ),
               ),
