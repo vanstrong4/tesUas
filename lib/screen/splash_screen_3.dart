@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:latihan_uts_splash/screen/login.dart';
+import 'package:kb1179_1123150186_uts/screen/login.dart';
 
 
 class MySplashScreen3 extends StatelessWidget {
@@ -85,11 +85,11 @@ class MySplashScreen3 extends StatelessWidget {
                       child: ElevatedButton(
                         onPressed: (){
                             //
-                      //      Navigator.pushAndRemoveUntil(
-                      //       context, 
-                      //      MaterialPageRoute(builder: (context) => Login()), 
-                      //       (Route<dynamic> route) => false,                        
-                      // );
+                           Navigator.pushAndRemoveUntil(
+                            context, 
+                           MaterialPageRoute(builder: (context) => Login()), 
+                            (Route<dynamic> route) => false,                        
+                      );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.cyan
