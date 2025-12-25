@@ -8,6 +8,7 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Center(
         child: Column(
           //1. buat image dalam container
@@ -21,7 +22,7 @@ class MySplashScreen extends StatelessWidget {
                 color: Colors.cyan,
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: AssetImage("../assets/image/hotel1.png"),
+                  image: AssetImage("../assets/image/global_logo.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
