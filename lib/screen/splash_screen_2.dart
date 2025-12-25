@@ -24,43 +24,14 @@ class MySplashScreen2 extends StatelessWidget {
                 color: Colors.amber,
               ),
             ),
-            SizedBox(height:50),
-            Card(
-                    elevation: 4,
-                    child: Container(
-                      width: 500,
-                      height: 190,
-                      color: const Color.fromARGB(255, 240, 137, 3),
-                      padding: const EdgeInsets.all(6.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Text(
-                            "Tentang Saya",
-                            style: TextStyle(
-                              fontSize: 25.0,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black
-                              ),
-                          ),
-                          SizedBox(height: 10),
-                          Text(
-                            "Nama saya Evan Alfeus Hendri, saya seorang mahasiswa semester 5, sekarang saya sedang belajar flutter untuk membuat aplikasi mobile, supaya kemampuan saya bertambah dalam bidang pemrograman mobile."
-                            ,
-                            style: TextStyle(fontSize: 16.0),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 10),
+              SizedBox(height: 20),
                   Card(
                       elevation: 15,
                       shadowColor: Colors.pink,
                       //contoh memotong gradient melengkung
                       clipBehavior: Clip.antiAlias,
                       child: Container(
-                        height: 350,
+                        height: 500,
                         width: 500,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
@@ -74,7 +45,6 @@ class MySplashScreen2 extends StatelessWidget {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              //container dengan circle avatarq
                               Container(
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
@@ -106,7 +76,17 @@ class MySplashScreen2 extends StatelessWidget {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              SizedBox(height: 6),
+                              SizedBox(height: 15),
+                               Text(
+                            "Nama saya Evan Alfeus Hendri, saya seorang mahasiswa semester 5, sekarang saya sedang belajar flutter untuk membuat aplikasi mobile, supaya kemampuan saya bertambah dalam bidang pemrograman mobile."
+                            ,
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Colors.amber,
+                              ),
+                          ),
+                              //container dengan circle avatarq
+                              SizedBox(height: 16),
                               //container dengan text flutter developer
                               Container(
                                 decoration: BoxDecoration(
