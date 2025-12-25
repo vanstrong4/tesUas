@@ -14,14 +14,23 @@ class MySplashScreen2 extends StatelessWidget {
           //1. buat image dalam container
           mainAxisAlignment: MainAxisAlignment.center,
           children:[
-            SizedBox(height:140),
+            SizedBox(height: 40),
+            Text(
+              'PROFILE MAHASISWA',
+              style: TextStyle(
+                fontFamily: 'montserrat',
+                fontSize: 35, 
+                fontWeight: FontWeight.bold,
+                color: Colors.amber,
+              ),
+            ),
+            SizedBox(height:50),
             Card(
                     elevation: 4,
-                    color: const Color.fromARGB(255, 74, 156, 223),
                     child: Container(
                       width: 500,
                       height: 190,
-                      color: const Color.fromARGB(255, 174, 212, 243),
+                      color: const Color.fromARGB(255, 240, 137, 3),
                       padding: const EdgeInsets.all(6.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -55,7 +64,7 @@ class MySplashScreen2 extends StatelessWidget {
                         width: 500,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
-                            colors: [Colors.black, Colors.blue],
+                            colors: [Colors.amber, Colors.blue],
                             begin: Alignment.topRight,
                             end: Alignment.bottomLeft,
                           ),
@@ -70,7 +79,7 @@ class MySplashScreen2 extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   border: Border.all(
-                                    color: Colors.white,
+                                    color: Colors.amber,
                                     width: 4.0,
                                   ),
                                   boxShadow: [
@@ -101,7 +110,7 @@ class MySplashScreen2 extends StatelessWidget {
                               //container dengan text flutter developer
                               Container(
                                 decoration: BoxDecoration(
-                                  color: const Color.fromARGB(255, 82, 139, 238),
+                                  color: const Color.fromARGB(255, 241, 147, 4),
                                   borderRadius: BorderRadius.circular(20),
                                 ),
                                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
