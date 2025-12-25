@@ -14,12 +14,12 @@ class MySplashScreen extends StatelessWidget {
           //1. buat image dalam container
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 100),
+            SizedBox(height: 270),
             Container(
-              height: 200,
-              width: 200,
+              height: 230,
+              width: 230,
               decoration: BoxDecoration(
-                color: Colors.cyan,
+                color: Colors.yellow,
                 shape: BoxShape.circle,
                 image: DecorationImage(
                   image: AssetImage("../assets/image/global_logo.jpg"),
@@ -27,54 +27,61 @@ class MySplashScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 30),
             Text(
-              'Selamat Datang',
-              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'ingin nginap di hotel?\n nginep di vanshotel aja!',
-              textAlign: TextAlign.center,
+              'Hai!, Siap jelajahi \nvapestore violet?',
               style: TextStyle(
-                fontSize: 15,
-                fontWeight: FontWeight.normal,
-                color: Colors.cyan,
+                fontFamily: 'montserrat',
+                fontSize: 35, 
+                fontWeight: FontWeight.bold,
+                color: Colors.amber,
               ),
             ),
+            SizedBox(height: 10),
+            // Text(
+            //   'ingin nginap di hotel?\n nginep di vanshotel aja!',
+            //   textAlign: TextAlign.center,
+            //   style: TextStyle(
+            //     fontFamily: 'montserrat',
+            //     fontSize: 15,
+            //     fontWeight: FontWeight.normal,
+            //     color: Colors.amber,
+            //   ),
+            // ),
             SizedBox(height: 30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.cyan,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
-                  ),
-                ),
-                SizedBox(width: 10),
-              ],
-            ),
-            SizedBox(height: 70),
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.center,
+            //   children: [
+            //     Container(
+            //       width: 10,
+            //       height: 10,
+            //       decoration: BoxDecoration(
+            //         shape: BoxShape.circle,
+            //         color: Colors.green,
+            //       ),
+            //     ),
+            //     SizedBox(width: 10),
+            //     Container(
+            //       width: 10,
+            //       height: 10,
+            //       decoration: BoxDecoration(
+            //         shape: BoxShape.circle,
+            //         color: Colors.grey,
+            //       ),
+            //     ),
+            //     SizedBox(width: 10),
+            //     Container(
+            //       width: 10,
+            //       height: 10,
+            //       decoration: BoxDecoration(
+            //         shape: BoxShape.circle,
+            //         color: Colors.grey,
+            //       ),
+            //     ),
+            //     SizedBox(width: 10),
+            //   ],
+            // ),
+            SizedBox(height: 30),
             Container(
               child: SizedBox(
                 height: 30,
@@ -90,11 +97,14 @@ class MySplashScreen extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor:Colors.cyan,
+                    backgroundColor:Colors.yellow,
                   ),
                   child: Text(
-                    'Gasken Continue',
-                    style: TextStyle(color: Colors.black),
+                    'Mulai',
+                    style: TextStyle(
+                      fontFamily: 'montserrat',
+                      color: Colors.black
+                      ),
                   ),
                 ),
               ),
