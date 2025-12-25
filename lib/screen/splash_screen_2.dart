@@ -31,7 +31,7 @@ class MySplashScreen2 extends StatelessWidget {
                       //contoh memotong gradient melengkung
                       clipBehavior: Clip.antiAlias,
                       child: Container(
-                        height: 500,
+                        height: 550,
                         width: 500,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
@@ -45,6 +45,7 @@ class MySplashScreen2 extends StatelessWidget {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
+                              //container dengan circle avatarq
                               Container(
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
@@ -66,13 +67,29 @@ class MySplashScreen2 extends StatelessWidget {
                                   backgroundImage: AssetImage("../assets/image/van.jpeg"),
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              SizedBox(height: 18),
                               //text name
                               Text(
                                 "Evan Alfeus Hendri",
                                 style: TextStyle(
                                   fontSize: 28,
-                                  color: Colors.white,
+                                  color: Colors.amber,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "TI23SE1",
+                                style: TextStyle(
+                                  fontSize: 28,
+                                  color: Colors.amber,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "1123150186",
+                                style: TextStyle(
+                                  fontSize: 28,
+                                  color: Colors.amber,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -85,12 +102,12 @@ class MySplashScreen2 extends StatelessWidget {
                               color: Colors.amber,
                               ),
                           ),
-                              //container dengan circle avatarq
+                              
                               SizedBox(height: 16),
                               //container dengan text flutter developer
                               Container(
                                 decoration: BoxDecoration(
-                                  color: const Color.fromARGB(255, 241, 147, 4),
+                                  color: Colors.amber,
                                   borderRadius: BorderRadius.circular(20),
                                 ),
                                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
@@ -104,83 +121,83 @@ class MySplashScreen2 extends StatelessWidget {
                                 )
                               ),
                               SizedBox(height: 20),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  Column(
-                                    children: [
-                                    Text(
-                                    "180",
-                                    style: TextStyle(
-                                    fontSize: 22.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                    ),
-                                    ),
-                                    SizedBox(height: 5),
-                                    Text(
-                                    "Follower",
-                                    style: TextStyle(
-                                    fontSize: 14.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white.withValues(alpha: 0.5),
-                                    ),
-                                    ),
-                                    ],
-                                    ),
-                                  SizedBox(
-                                    height: 40,
-                                    child: VerticalDivider(thickness: 1,
-                                    color: Colors.black, width: 1),
-                                    ),
-                                  Column(
-                                    children: [
-                                    Text(
-                                    "500",
-                                    style: TextStyle(
-                                    fontSize: 22.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                    ),
-                                    ),
-                                    SizedBox(height: 5),
-                                    Text(
-                                    "Subscriber",
-                                    style: TextStyle(
-                                    fontSize: 14.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white70,
-                                    ),
-                                    ),
-                                    ],
-                                    ),
-                                SizedBox(
-                                  height: 40,
-                                  child: VerticalDivider(thickness: 1,
-                                  color: Colors.black, width: 1),
-                                  ),
-                                  Column(
-                                    children: [
-                                    Text(
-                                    "100++",
-                                    style: TextStyle(
-                                    fontSize: 22.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                    ),
-                                    ),
-                                    SizedBox(height: 5),
-                                    Text(
-                                    "Fans",
-                                    style: TextStyle(
-                                    fontSize: 14.0,
-                                    color: Colors.white70,
-                                    ),
-                                    ),
-                                    ],
-                                    ),
-                                ],
-                              ),
+                              // Row(
+                              //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              //   children: [
+                              //     Column(
+                              //       children: [
+                              //       Text(
+                              //       "180",
+                              //       style: TextStyle(
+                              //       fontSize: 22.0,
+                              //       fontWeight: FontWeight.bold,
+                              //       color: Colors.white,
+                              //       ),
+                              //       ),
+                              //       SizedBox(height: 5),
+                              //       Text(
+                              //       "Follower",
+                              //       style: TextStyle(
+                              //       fontSize: 14.0,
+                              //       fontWeight: FontWeight.bold,
+                              //       color: Colors.white.withValues(alpha: 0.5),
+                              //       ),
+                              //       ),
+                              //       ],
+                              //       ),
+                              //     SizedBox(
+                              //       height: 40,
+                              //       child: VerticalDivider(thickness: 1,
+                              //       color: Colors.black, width: 1),
+                              //       ),
+                              //     Column(
+                              //       children: [
+                              //       Text(
+                              //       "500",
+                              //       style: TextStyle(
+                              //       fontSize: 22.0,
+                              //       fontWeight: FontWeight.bold,
+                              //       color: Colors.white,
+                              //       ),
+                              //       ),
+                              //       SizedBox(height: 5),
+                              //       Text(
+                              //       "Subscriber",
+                              //       style: TextStyle(
+                              //       fontSize: 14.0,
+                              //       fontWeight: FontWeight.bold,
+                              //       color: Colors.white70,
+                              //       ),
+                              //       ),
+                              //       ],
+                              //       ),
+                              //   SizedBox(
+                              //     height: 40,
+                              //     child: VerticalDivider(thickness: 1,
+                              //     color: Colors.black, width: 1),
+                              //     ),
+                              //     Column(
+                              //       children: [
+                              //       Text(
+                              //       "100++",
+                              //       style: TextStyle(
+                              //       fontSize: 22.0,
+                              //       fontWeight: FontWeight.bold,
+                              //       color: Colors.white,
+                              //       ),
+                              //       ),
+                              //       SizedBox(height: 5),
+                              //       Text(
+                              //       "Fans",
+                              //       style: TextStyle(
+                              //       fontSize: 14.0,
+                              //       color: Colors.white70,
+                              //       ),
+                              //       ),
+                              //       ],
+                              //       ),
+                              //   ],
+                              // ),
                             ],
                           ),
                         ),
@@ -195,7 +212,7 @@ class MySplashScreen2 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Colors.amber,
                   ),
                 ),
                 SizedBox(width: 10),
